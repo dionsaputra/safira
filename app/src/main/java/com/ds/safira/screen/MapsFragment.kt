@@ -56,6 +56,8 @@ class MapsFragment : Fragment(), CustomGestureListener.MarkerSelectedListener,
         mapsContainer.setOnClickListener {
             reviewRecycler.visibility = View.GONE
         }
+        reportButton.setOnClickListener { showDialogBuyArtworks() }
+
 //        maps.setOnTouchListener { _, _ ->
 //            if (reviewRecycler.isVisible) {
 //                reviewRecycler.visibility = View.GONE
@@ -76,6 +78,13 @@ class MapsFragment : Fragment(), CustomGestureListener.MarkerSelectedListener,
                 println("ERROR: ${error.details}")
             }
         }
+    }
+
+    private fun showDialogBuyArtworks() {
+        BuyArtworksFragment().show(
+            childFragmentManager,
+            BuyArtworksFragment::class.java.simpleName
+        )
     }
 
     private fun fetchAccidentPoints() {
