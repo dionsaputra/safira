@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
     android:orientation="vertical"
     tools:context=".screen.MainActivity">
 
@@ -20,14 +21,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:navGraph="@navigation/nav_main" />
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/mainBottomNav"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@android:color/white"
-        app:elevation="@dimen/elevation_8dp"
-        app:itemIconTint="@color/color_main_bottom_nav"
-        app:itemTextColor="@color/color_main_bottom_nav"
-        app:menu="@menu/menu_navigation_main" />
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:id="@+id/mainBottomNav"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@android:color/white"-->
+<!--        app:elevation="@dimen/elevation_8dp"-->
+<!--        app:itemIconTint="@color/color_main_bottom_nav"-->
+<!--        app:itemTextColor="@color/color_main_bottom_nav"-->
+<!--        app:menu="@menu/menu_navigation_main" />-->
 
 </LinearLayout>

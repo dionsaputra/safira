@@ -2,6 +2,7 @@ package com.ds.safira
 
 import android.app.Application
 import com.ds.safira.data.AccidentPointRepo
+import com.ds.safira.data.ReviewRepo
 
 class App : Application() {
 
@@ -9,5 +10,6 @@ class App : Application() {
         super.onCreate()
 
         AccidentPointRepo.initRepo(applicationContext)
+        ReviewRepo.initRepo(applicationContext)
     }
 }
