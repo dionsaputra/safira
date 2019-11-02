@@ -1,0 +1,32 @@
+[
+  {
+    "accidentPointId": 1,
+    "latitude": -6.124561,
+    "longitude": 106.838910,
+    "accidentRate": 80
+  },
+  {
+    "accidentPointId": 2,
+    "latitude": -6.134561,
+    "longitude": 106.828910,
+    "accidentRate": 82
+  },
+  {
+    "accidentPointId": 3,
+    "latitude": -6.114561,
+    "longitude": 106.818910,
+    "accidentRate": 81
+  },
+  {
+    "accidentPointId": 4,
+    "latitude": -6.134561,
+    "longitude": 106.818910,
+    "accidentRate": 80
+  },
+  {
+    "accidentPointId": 5,
+    "latitude": -6.123561,
+    "longitude": 106.8218910,
+    "accidentRate": 81
+  }
+]
